@@ -12,10 +12,8 @@ const Home: React.FC = () => {
       <header>        
         <img src="../../static/assets/imgs/chip.svg" alt=""/>
       </header>
-      <MainInfo></MainInfo>
-      <footer>
-      </footer>
     </ContainerHome>
+    <MainInfo></MainInfo>
     </>
   )
 }

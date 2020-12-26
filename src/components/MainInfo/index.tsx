@@ -1,5 +1,6 @@
 import { info } from 'console';
 import {Container} from './style';
+import DetailBlock from '../DetailsBlock';
 
 const MainInfo: React.FC = () => {
   return (
@@ -10,25 +11,20 @@ const MainInfo: React.FC = () => {
         <dl>
           <dt>
             <img src="../../../static/assets/imgs/devIcon.svg" alt="Programmer At Salutis Image"/>
-            <p>Programmer At Salutis</p>
+            <p>Software Engineering</p>
           </dt>
-          <dd>
-            <img src="../../../static/assets/imgs/location.svg" alt="Programmer At Salutis Image"/>
-            <p>Aldeota</p>
-          </dd>
           <dt>
             <img src="../../../static/assets/imgs/education.svg" alt="Programmer At Salutis Image"/>
-            <p> - Software Engineering</p>
+            <p>JavaScript Full Stack Developer</p>
           </dt>
-          <dd>
-            <img src="../../../static/assets/imgs/location.svg" alt="Programmer At Salutis Image"/>
-            <p>UFC</p>
-          </dd>
+          <dt>
+            <img src="../../../static/assets/imgs/education.svg" alt="Programmer At Salutis Image"/>
+            <p>Fortaleza, homeOffice</p>
+          </dt>
         </dl>
       </header>
-      <div>
-
-      </div>
+      <DetailBlock></DetailBlock>
+      
     </Container>
   );
 }

@@ -12,19 +12,22 @@ export const Container = styled.div`
   border-bottom:  0.2rem solid;
   border-color: #000;
 
+
   div {
     display: flex;
     align-items: center;
 
     img {
-      margin: 0.5rem;
+      margin: 0.4rem;
       margin-left: 1rem;
-      width: 3rem;
-      height: 3rem;
+      width: 2rem;
+      height: 2rem;
+      max-width: 100%;
       border-radius: 50%;
       border: 0.3rem solid;
     }
     h1 {
+      font-size: 1.35rem;
       margin-left: 0.2rem;
     }
   }
@@ -34,6 +37,7 @@ export const Container = styled.div`
 
     a {
       text-decoration: none;
+      visibility: hidden;
     }
   }
 
