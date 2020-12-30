@@ -30,19 +30,20 @@ export const ListItem = styled.li<BoxTechnologies>`
   
   width: 2.5rem;
   height: 2.5rem;   
-  transition: 0.2s;
+  transition: 0.3s;
 
   & + li {
     margin-left: 0.5rem;
   }
 
   :hover {
-    /* z-index: 20; */
     transform: scale(1.5);
     box-shadow: 0 0 1rem 0.2rem black;
+    border-radius: 0.5rem;
     div {
-      background: rgba(0,0,0,0.2);
-      transform: translate(0, 2rem);
+      background: rgba(0,0,0,1);
+      transform: translate(0, 1.9rem);
+      border-radius: 0.5rem;
     }
 
     p {
@@ -56,10 +57,9 @@ export const ListItem = styled.li<BoxTechnologies>`
     align-items: center;
     justify-content: center;
     width: 2.5rem;
-    height: 2rem;   
+    height: 1rem;   
     background: rgba(0,0,0,0.0);
     transition: 0.3s;
-   
 
      > p {
       font-stretch: condensed;

@@ -1,4 +1,4 @@
-import { info } from 'console';
+
 import {Container} from './style';
 import DetailBlock from '../DetailsBlock';
 
@@ -14,16 +14,17 @@ const MainInfo: React.FC = () => {
             <p>Software Engineering</p>
           </dt>
           <dt>
-            <img src="../../../static/assets/imgs/education.svg" alt="Programmer At Salutis Image"/>
+            <img src="../../../static/assets/imgs/devIcon.svg" alt="Programmer At Salutis Image"/>
             <p>JavaScript Full Stack Developer</p>
           </dt>
           <dt>
-            <img src="../../../static/assets/imgs/education.svg" alt="Programmer At Salutis Image"/>
+            <img src="../../../static/assets/imgs/location.svg" alt="Programmer At Salutis Image"/>
             <p>Fortaleza, homeOffice</p>
           </dt>
         </dl>
       </header>
       <DetailBlock></DetailBlock>
+      
       
     </Container>
   );

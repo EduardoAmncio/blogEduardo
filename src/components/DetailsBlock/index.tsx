@@ -1,5 +1,5 @@
 import { info } from 'console';
-import {Container} from './style';
+import {Container, LinkToPage, ContainerLinks} from './style';
 import BoxTechnologies from '../BoxTechnologies';
 
 const DetailsBlock: React.FC = () => {
@@ -73,6 +73,14 @@ const DetailsBlock: React.FC = () => {
       </div>
       <BoxTechnologies title={objWork.title} technologies={objWork.tecnologies}></BoxTechnologies>
       <BoxTechnologies title={objKnow.title} technologies={objKnow.tecnologies}></BoxTechnologies>
+      <div>
+        <h2>Find Me On:</h2>
+        <ContainerLinks>
+          <LinkToPage href="https://www.instagram.com/eduardo.amncio" target="_blank" socialName="Instagram">Instagram</LinkToPage>
+          <LinkToPage href="https://github.com/EduardoAmncio" target="_blank" socialName="GitHub">GitHub</LinkToPage>
+          <LinkToPage href="https://github.com/EduardoAmncio" target="_blank" socialName="Linkedin">Linkedin</LinkToPage>
+        </ContainerLinks>
+      </div>
     </Container>
   );
 }

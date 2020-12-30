@@ -8,13 +8,9 @@ export const Container = styled.div`
   
   align-items: center;
   justify-content: center;
-  /* background: rgba(0, 0, 255, 0.9);  */
   width: 100%;
- // height: 50rem;
   height: 100%;
   margin-top: -5rem;
-
- // 750
 
  @media (max-width: 50rem){
    flex-direction: column;
@@ -30,7 +26,7 @@ export const Container = styled.div`
     max-width: 30rem;
     min-width: 22rem;
     
-    height: 35rem;
+    height: 33.8rem;
     margin-left: 1rem;
     padding: 1rem;
 
@@ -38,8 +34,6 @@ export const Container = styled.div`
       max-width: 100%;
       margin-right: 1rem;
     }
-
-    
 
     img {
       width: 15rem;
@@ -82,27 +76,4 @@ export const Container = styled.div`
       }   
     }
   }
-
-  /* div {
-    display: flex;
-    box-sizing: border-box;
-    background: #242630;
-    width: 56rem;
-    min-width: 22rem;
-    max-width: 56rem;
-    height: 35rem;
-    padding: 1rem;
-
-    margin-left: 1rem;
-    margin-right: 1rem;
-
-    @media (max-width: 50rem) {
-      margin-top: 1rem;
-      width: 30rem;
-      max-width: 100%;
-      margin-left: 2rem;
-      margin-right: 2rem;
-    }
-  } */
-
 `
